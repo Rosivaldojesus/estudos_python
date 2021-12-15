@@ -2,7 +2,7 @@ from mysql.connector.errors import ProgrammingError
 from MYSQL.db import nova_conexao
 
 sql = 'INSERT INTO contatos (nome, tel) VALUES (%s, %s)'
-argumentos = ('João', '96543-7856')
+argumentos = ('Pedro', '96543-7856')
 
 with nova_conexao() as conexao:
     try:
