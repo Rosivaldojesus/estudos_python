@@ -15,6 +15,9 @@
     sobre ela, executar algumas funções de ordem superior, como mapear e filtar, etc.
 """
 
+""" O *args é usado em uma função para fazeê-la receber uma lisa de argumentos sem tamanho definido sem palavra-chave
+(keyword)"""
+
 
 #  Exemplo 01
 
@@ -26,9 +29,9 @@ def minha_funcao_1(*args):
 
 minha_funcao_1('Olá', 'Bem-vindo', 'para', 'terra')
 print("-------------------------------------------------------------------------------")
+
+
 #  Exemplo 02
-
-
 def minha_funcao_2(argumento1, *args):
     print("Primeiro argumento: ", argumento1)
     for arg in args:
@@ -36,3 +39,11 @@ def minha_funcao_2(argumento1, *args):
 
 
 minha_funcao_2('Olá', 'Bem-vindo', 'para', 'terra')
+
+
+#  Exemplo 03
+def funcao(*args):
+    for arg in args:
+        print('Argumento de *args: {args}')
+funcao('arg1', 'agr2', 'arg3', 'arg4', 'arh5')
+
