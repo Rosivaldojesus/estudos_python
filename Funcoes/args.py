@@ -15,7 +15,7 @@
     sobre ela, executar algumas funções de ordem superior, como mapear e filtar, etc.
 """
 
-""" O *args é usado em uma função para fazeê-la receber uma lisa de argumentos sem tamanho definido sem palavra-chave
+""" O *args é usado em uma função para fazê-la receber uma lisa de argumentos sem tamanho definido sem palavra-chave
 (keyword)"""
 
 
