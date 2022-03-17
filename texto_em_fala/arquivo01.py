@@ -4,7 +4,7 @@ import pyttsx3
 engine = pyttsx3.init()
 
 # Textos que será falado
-engine.say("Ola mundo")
+engine.say("Ola, Quelven")
 engine.say("Programar em Python")
 
 # executa
