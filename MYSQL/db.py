@@ -7,7 +7,7 @@ paramentros = dict(
     port='3307',
     user='root',
     passwd='',
-    database='agenda'
+    database='speed'
 )
 
 
